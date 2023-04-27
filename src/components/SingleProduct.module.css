@@ -1,0 +1,11 @@
+.products {
+    width: 30%;
+    margin: 10px;
+}
+
+/* Media Queries */
+@media (max-width: 771px) {
+    .products {
+        width: 100%;
+    }
+}

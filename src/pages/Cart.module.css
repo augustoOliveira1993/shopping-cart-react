@@ -1,0 +1,41 @@
+
+.filters {
+    background-color: #343a40;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin: 10px;
+    height: 86vh;
+}
+
+.filters > span {
+    padding-bottom: 20px;
+}
+
+.summary {
+    width: 30%;
+}
+
+
+.title {
+    font-size: 30px;
+}
+
+/* Media Queries */
+@media (max-width: 771px) {
+    .filters {
+        width: 40%;
+        padding: 10px;
+        margin: 5px;
+    }
+
+    .filters > span {
+        font-size: 10px;
+    }
+
+    .title {
+        font-size: 18px !important;
+    }
+}
